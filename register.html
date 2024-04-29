@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>USER REGISTRATION </title>
+<h1><center>USER REGISTRATION </center></h1>
+<h2><center>ENTER YOUR CREDENTIALS:</center></h2>
+<body bgColor="purple">
+<a href="home.html">
+<p>Back</p></a>
+<form action="/action_page.php"><center>
+  <label for="fname">username:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="fname">email:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">password:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender" required>
+  <option value="">Select Gender</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="other">Other</option>
+  <label for="phone_number">Phone Number:</label>
+  <input type="tel" id="phone_number" name="phone_number" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+  <label for="address">Address:</label>
+  <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+  <input type="submit" value="Register"></center>
+</form>
+</body>
+</html>
